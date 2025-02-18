@@ -32,14 +32,14 @@
 //   console.log("arrow function");
 // });
 
-function xyz() {
-  console.log(1);
-}
+// function xyz() {
+//   console.log(1);
+// }
 
-var abc = function cdf() {
-  //The cdf function is the local scope for the abc var so it can not be accesed by GCE
-  console.log(2);
-};
+// var abc = function cdf() {
+//   //The cdf function is the local scope for the abc var so it can not be accesed by GCE
+//   console.log(2);
+// };
 
-xyz();
-cdf();
+// xyz();
+// cdf();
