@@ -160,20 +160,20 @@
 
 // console.log(data.mapp(filterOddNumber));
 
-const users = [
-  { firstName: "Pratiyush", lastName: "Ray", age: 25 },
-  { firstName: "Piyush", lastName: "Saini", age: 22 },
-  { firstName: "Sahil", lastName: "Aggarwal", age: 20 },
-  { firstName: "Ayush", lastName: "Jawa", age: 28 },
-  { firstName: "Daksh", lastName: "Singh", age: 40 },
-];
+// const users = [
+//   { firstName: "Pratiyush", lastName: "Ray", age: 25 },
+//   { firstName: "Piyush", lastName: "Saini", age: 22 },
+//   { firstName: "Sahil", lastName: "Aggarwal", age: 20 },
+//   { firstName: "Ayush", lastName: "Jawa", age: 28 },
+//   { firstName: "Daksh", lastName: "Singh", age: 40 },
+// ];
 
-// Combine first and last name
-const FullName = users.map((user) => user.firstName + " " + user.lastName);
-console.log(FullName); // Output: ["Pratiyush Ray", "Piyush Saini", "Sahil Aggarwal", "Ayush Jawa", "Daksh Singh"]
+// // Combine first and last name
+// const FullName = users.map((user) => user.firstName + " " + user.lastName);
+// console.log(FullName); // Output: ["Pratiyush Ray", "Piyush Saini", "Sahil Aggarwal", "Ayush Jawa", "Daksh Singh"]
 
-// Filter out users above 24 and their full name
-const above24 = users
-  .filter((user) => user.age > 24)
-  .map((user) => user.firstName + " " + user.lastName);
-console.log(above24); // Output: ["Pratiyush Ray", "Ayush Jawa", "Daksh Singh"]
+// // Filter out users above 24 and their full name
+// const above24 = users
+//   .filter((user) => user.age > 24)
+//   .map((user) => user.firstName + " " + user.lastName);
+// console.log(above24); // Output: ["Pratiyush Ray", "Ayush Jawa", "Daksh Singh"]

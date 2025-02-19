@@ -1,30 +1,30 @@
-// // // var count = 0;
+// // // // var count = 0;
 
-// // //Closures in event listners
-// // function helper() {
-// //   var count = 0;
+// // // //Closures in event listners
+// // // function helper() {
+// // //   var count = 0;
 
-// //   document.getElementById("btn-click").addEventListener("click", function () {
-// //     count++;
-// //     console.log("clicked");
+// // //   document.getElementById("btn-click").addEventListener("click", function () {
+// // //     count++;
+// // //     console.log("clicked");
 
-// //     console.log("helper - " + count);
-// //   });
-// // }
+// // //     console.log("helper - " + count);
+// // //   });
+// // // }
 
-// // function helper1() {
-// //   var count = 0;
+// // // function helper1() {
+// // //   var count = 0;
 
-// //   document.getElementById("btn-click1").addEventListener("click", function () {
-// //     count++;
-// //     console.log("clicked 1");
+// // //   document.getElementById("btn-click1").addEventListener("click", function () {
+// // //     count++;
+// // //     console.log("clicked 1");
 
-// //     console.log("helper 1 - " + count);
-// //   });
-// // }
+// // //     console.log("helper 1 - " + count);
+// // //   });
+// // // }
 
-// // helper();
-// // helper1();
+// // // helper();
+// // // helper1();
 
 // function ReachedRestuarant(callBack) {
 //   console.log("Reached Restuarant");
@@ -91,3 +91,25 @@
 //     });
 //   });
 // });
+
+// // PROMISE
+
+// ReachedRestuarant(function () {
+//   console.log("I reached the place");
+// })
+//   .then(TableFinding)
+//   .then(MenuDiscovery)
+//   .then(PriceChecking)
+//   .then(StatersOrder)
+//   .then(MainCourseOrder)
+//   .then(DessertOrder)
+//   .then(BillPayment);
+
+// const myRestaurantPromise = new Promise(reslove,reject){
+//     if(1:30 < time < 2:30){
+//         reslove("Reached the restuarant")
+//     }
+//     else{
+//         reject("Reached late")
+//     }
+// }
